@@ -1,0 +1,26 @@
+#navbarWrapper {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    border: 1rem;
+    height: 5rem;
+    width: 100dvw;
+    background-color: aquamarine;
+}
+
+#navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 1rem;
+
+}
+
+#navMenuItems {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.menuItem {
+font-size: 1.1em;}
