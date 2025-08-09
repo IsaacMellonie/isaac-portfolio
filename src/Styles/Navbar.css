@@ -6,7 +6,8 @@
     border: 1rem;
     height: 5rem;
     width: 100dvw;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    border-bottom: 1px solid #CDC9C7;
 }
 
 #navbar {
@@ -14,7 +15,6 @@
     width: 100%;
     justify-content: space-between;
     margin: 0 1rem;
-
 }
 
 #navMenuItems {
@@ -23,4 +23,6 @@
 }
 
 .menuItem {
-font-size: 1.1em;}
+    font-size: 1.1em;
+    
+}

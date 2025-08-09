@@ -1,5 +1,7 @@
 import React from 'react'
 import '../../Styles/Navbar.css'
+import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
   return (
@@ -7,9 +9,9 @@ const Navbar = () => {
       <div id='navbar'>
         <img src="" alt="" />
         <menu id='navMenuItems' className='menuContainer'>
-          <p className='menuItem'>About</p>
-          <p className='menuItem'>Work</p>
-          <p className='menuItem'>Contact</p>
+          <Link className='menuItem' to="/about">About</Link>
+          <Link className='menuItem' to='/work'>Work</Link>
+          <Link className='menuItem' to='/contact'>Contact</Link>
         </menu>
       </div>
 
