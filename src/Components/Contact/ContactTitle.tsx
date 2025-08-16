@@ -1,10 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import '../../Styles/Title.css'
 
-const ContactTitle = () => {
+const ContactTitle = ({classProp}) => {
   return (
-    <div className='contactGrid'>
+    <div className={classProp}>
       {/* column 1 */}
         <span className='darkSquare'/>
         <span className='darkSquare'/>
@@ -19,7 +17,7 @@ const ContactTitle = () => {
         <span className='darkSquare'/>
         <span/>
         <span className='darkSquare'/>
-        <span className='darkSquare'/>
+        <span/>
         <span/>
         <span/>
         <span className='darkSquare'/>
@@ -58,7 +56,7 @@ const ContactTitle = () => {
         <span/>
         <span/>
         <span/>
-        <span/>
+        <span className='darkSquare'/>
         <span/>
         <span className='darkSquare'/>
         <span className='darkSquare'/>
@@ -76,8 +74,145 @@ const ContactTitle = () => {
         <span/>
         <span/>
         <span/>
-        
-
+        <span className='darkSquare'/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        {/* column 3 */}
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        {/* collumn 4 */}
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        {/* column 5 */}
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
+        <span/>
+        <span className='darkSquare'/>
+        <span/>
+        <span/>
     </div>
   )
 }

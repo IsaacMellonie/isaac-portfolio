@@ -1,10 +1,24 @@
-.contactGrid {
+.titleGridFront {
     display: grid;
-    grid-template-columns: repeat(41, 1rem);
-    grid-template-rows: repeat(5, 1rem);
+    grid-template-columns: repeat(41, 0.5rem);
+    grid-template-rows: repeat(5, 0.5rem);
+}
+
+.pageTitle {
+    /* color: rgb(255, 72, 0); */
 }
 
 .darkSquare {
-    background-color: black;
-    border: 1px solid rgb(255, 255, 255);
+    background-color: #201E1D;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.titleWrapper {
+    display: flex;
+    height:300px;
+    max-width: 100svw;
+}
+
+.pageSection {
+    max-width: 100svw;
 }

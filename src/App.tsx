@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './Styles/App.css'
 import Home from './Components/Home/Home.tsx'
 import Navbar from './Components/Navbar/Navbar.tsx'
 import Contact from './Components/Contact/Contact.tsx'

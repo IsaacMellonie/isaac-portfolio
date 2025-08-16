@@ -9,11 +9,21 @@ main {
   min-height: 100dvh;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerSection {
+  padding-top: 2rem;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  font-size: 1.5em;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -26,7 +36,7 @@ main {
 
 a {
   font-weight: 500;
-  color: #322E2C;
+  color: #5c5c5c;
   text-decoration: inherit;
 }
 a:hover {
@@ -49,7 +59,8 @@ body {
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+  font-weight: 300;
+  line-height: 1;
 }
 
 button {
@@ -73,8 +84,8 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #322E2C;
-    background-color: #FAF7F6;
+    color: #3a3a3a;
+    background-color: #ffffff;
   }
   a:hover {
     color: #FF5500;

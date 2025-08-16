@@ -3,7 +3,11 @@ import PropTypes from 'prop-types'
 
 const About = props => {
   return (
-    <div>About</div>
+    <section>
+      <header className='headerSection'>
+        <h1 className='pageTitle'>About</h1>
+      </header>
+    </section>
   )
 }
 
